@@ -48,39 +48,4 @@ searchBtn.addEventListener("click", () => {
   checkWeather(searchBox.value);
 });
 
-// function CalculateAge(dob) {
-//   let age = dob;
-//   let sub = 2025;
-//   return sub - age;
-// return 2025 - dob;
-// }
-
-// console.log(CalculateAge(2002));
-// console.log(CalculateAge(2000));
-
-// function Calc(r) {
-//   let a = 2 * 3.14 * r;
-
-//   return a;
-// }
-
-// console.log(Calc(3));
-// console.log(Calc(10));
-
-// function PrintName(n) {
-//   let a = "goodmorning";
-
-//   return a + "kumar";
-// }
-// console.log(PrintName("kumar"));
-
-// console.log(PrintName("chandu"));
-
-function PrintName(b) {
-  let a = "goodmorning";
-  return a + b;
-}
-
-console.log(PrintName("kumar"));
-console.log(PrintName("chandu"));
-console.log(PrintName("mahesh"));
+console.log("hello world ");
